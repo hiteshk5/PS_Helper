@@ -19,8 +19,12 @@ _Note 3:_ You can find the binaries in the [releases](https://github.com/rutvora
 **_Commands:_**  
 _Note:_ paste whatever you copied from chrome where I've written cookie and make sure you are using the correct binary  
 
+Clone the repo.
+
+Install golang.
+
 Create csv file  
-`./<binary> -g "cookie"` (with quotes, don't forget to replace <binary> with the binary that you downloaded)  
+`go run scrapper.go -g "cookie"` (with quotes, don't forget to replace <binary> with the binary that you downloaded)  
 Update List (from the same csv file)  
-`./<binary> -u "cookie"` (with quotes ,don't forget to replace <binary> with the binary that you downloaded)
+`go run scrapper.go -u "cookie"` (with quotes ,don't forget to replace <binary> with the binary that you downloaded)
  
