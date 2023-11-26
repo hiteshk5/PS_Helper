@@ -24,7 +24,7 @@ Clone the repo.
 Install golang.
 
 Create csv file  
-`go run scrapper.go -g "cookie"` (with quotes, don't forget to replace <binary> with the binary that you downloaded)  
+`go run scraper.go -g "cookie"` (with quotes, don't forget to replace <binary> with the binary that you downloaded)  
 Update List (from the same csv file)  
-`go run scrapper.go -u "cookie"` (with quotes ,don't forget to replace <binary> with the binary that you downloaded)
+`go run scraper.go -u "cookie"` (with quotes ,don't forget to replace <binary> with the binary that you downloaded)
  
